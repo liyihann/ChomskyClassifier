@@ -1,5 +1,3 @@
-package pers.liyihan;
-
 import java.io.*;
 
 public class FileUtility {
@@ -13,11 +11,21 @@ public class FileUtility {
         return instance;
     }
 
+    private final File getResource(String filepath) {
+        try{
+            File file = new File(this.getClass().getResource(filepath).getPath());
+            return file;
+        }catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
     public void readFileLine(String filepath, int lineNumber){
-        File sourceFile = new File(filepath);
+        File file = getResource(filepath);
         FileReader in = null;
         try {
-            in = new FileReader(sourceFile);
+            in = new FileReader(file);
             LineNumberReader reader = new LineNumberReader(in);
             String s = reader.readLine();
             if (lineNumber < 0 || lineNumber > getTotalLineNumber(filepath)) {
@@ -40,7 +48,7 @@ public class FileUtility {
     }
 
     public int getTotalLineNumber(String filepath) throws IOException {
-        File file = new File(filepath);
+        File file = getResource(filepath);
         FileReader in = new FileReader(file);
         LineNumberReader reader = new LineNumberReader(in);
         String s = reader.readLine();
