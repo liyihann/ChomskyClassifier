@@ -21,7 +21,8 @@ public class FileUtility {
         }
     }
 
-    public void readFileLine(String filepath, int lineNumber){
+    public String readFileLine(String filepath, int lineNumber){
+        String str = "";
         File file = getResource(filepath);
         FileReader in = null;
         try {
@@ -35,15 +36,18 @@ public class FileUtility {
                 while (s != null) {
                     //System.out.println("当前行号为:" + reader.getLineNumber());
                     if (reader.getLineNumber() == lineNumber) {
-                        System.out.println(s);
+                        //System.out.println(s);
+                        str = s;
                     }
                     s = reader.readLine();
                 }
             }
             reader.close();
             in.close();
+            return str;
         } catch (IOException e) {
             e.printStackTrace();
+            return "";
         }
     }
 
