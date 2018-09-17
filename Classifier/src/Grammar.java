@@ -1,8 +1,6 @@
 import java.io.CharConversionException;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.StringTokenizer;
+import java.util.*;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -117,9 +115,10 @@ public class Grammar {
         }catch (Exception e){
             e.printStackTrace();
         }
-
-        System.out.println("终结符："+all.toString());
-
+        for(int i=0;i<all.size();i++){
+            Vt.add(all.get(i));
+        }
+        System.out.println("终结符："+Vt.toString());
     }
 
     public void printGrammar(){
@@ -131,7 +130,13 @@ public class Grammar {
             vn+=",";
         }
         vn+=Vn.get(Vn.size()-1)+"}";
-        String vt = "";
+
+        String vt = "{";
+        for(int i = 0;i<Vt.size()-1;i++){
+            vt = vt + this.Vt.get(i).toString();
+            vt+=",";
+        }
+        vt+=Vt.get(Vt.size()-1)+"}";
 
         System.out.println("文法 "+g+" = ("+vn+", "+vt+", P, "+start+")");
 

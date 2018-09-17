@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2a7ae5f-9ae3-4001-bf5f-06e2e043f29a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classifier/resource/grammar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier/resource/grammar.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classifier/src/Chomsky.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classifier/src/Grammar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier/src/Grammar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Classifier/grammar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Classifier/grammar.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classifier/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="75">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -68,13 +65,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Grammar.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Grammar.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Classifier/src/Grammar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="120" column="48" selection-start-line="120" selection-start-column="48" selection-end-line="120" selection-end-column="48" />
+            <state relative-caret-position="995">
+              <caret line="120" column="22" selection-start-line="120" selection-start-column="22" selection-end-line="120" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="434" selection-start-line="434" selection-end-line="434" />
+              <folding>
+                <element signature="e#15586#15587#0" expanded="true" />
+                <element signature="e#15631#15632#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,8 +122,8 @@
         <option value="$PROJECT_DIR$/Classifier/src/FileUtility.java" />
         <option value="$PROJECT_DIR$/Classifier/resource/grammar.txt" />
         <option value="$PROJECT_DIR$/Classifier/src/Chomsky.java" />
-        <option value="$PROJECT_DIR$/Classifier/src/Grammar.java" />
         <option value="$PROJECT_DIR$/Classifier/src/Main.java" />
+        <option value="$PROJECT_DIR$/Classifier/src/Grammar.java" />
       </list>
     </option>
   </component>
@@ -127,8 +137,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="138" />
-    <option name="y" value="23" />
+    <option name="x" value="373" />
+    <option name="y" value="24" />
     <option name="width" value="1005" />
     <option name="height" value="802" />
   </component>
@@ -328,15 +338,15 @@
       <workItem from="1536668912655" duration="69000" />
       <workItem from="1537083657811" duration="489000" />
       <workItem from="1537173876944" duration="1178000" />
-      <workItem from="1537188102828" duration="2423000" />
+      <workItem from="1537188102828" duration="3045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17081000" />
+    <option name="totallyTimeSpent" value="17703000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="138" y="23" width="1005" height="802" extended-state="0" />
+    <frame x="373" y="24" width="1005" height="802" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -348,12 +358,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.52340424" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29503545" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24975124" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24975124" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -376,13 +386,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Classifier/resource/grammar2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Classifier/src/FileUtility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -578,20 +581,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classifier/src/Grammar.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="120" column="48" selection-start-line="120" selection-start-column="48" selection-end-line="120" selection-end-column="48" />
+        <state relative-caret-position="149">
+          <caret line="434" selection-start-line="434" selection-end-line="434" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#15586#15587#0" expanded="true" />
+            <element signature="e#15631#15632#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classifier/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classifier/src/Grammar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="995">
+          <caret line="120" column="22" selection-start-line="120" selection-start-column="22" selection-end-line="120" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -4,9 +4,9 @@ public class Main {
         String filename = "grammar";
         Grammar g = new Grammar(filename);
         g.getStartLine();
+        g.getRuleLine();
         g.getVn();
         g.getVt();
-        g.getRuleLine();
 
         g.printGrammar();
         g.identifyGrammar();
