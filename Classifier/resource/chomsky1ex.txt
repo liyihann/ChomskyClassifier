@@ -1,0 +1,5 @@
+G[N]
+N,A
+N::=Aaab|ε
+Aa::=bA
+Ab::=cc

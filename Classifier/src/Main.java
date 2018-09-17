@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        String filename = "grammar";
+        String filename = "chom3ex";
         Grammar g = new Grammar(filename);
         g.getStartLine();
         g.getRuleLine();
@@ -9,7 +9,7 @@ public class Main {
         g.getVt();
 
         g.printGrammar();
-        g.identifyGrammar();
+        g.printType();
 
     }
 }
