@@ -1,6 +1,11 @@
 import java.io.CharConversionException;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.StringTokenizer;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Grammar {
@@ -8,14 +13,16 @@ public class Grammar {
     private ArrayList<Character> Vn;
     private ArrayList<String> rule;
     private String filename;
+    private ArrayList<Character> Vt;
 
-    public Grammar() {
-    }
+    public Grammar() { }
+
     public Grammar(String filename) {
         this.start = 0;
         this.Vn=new ArrayList<Character>();
         this.rule=new ArrayList<String>();
         this.filename = filename;
+        this.Vt = new ArrayList<Character>();
     }
 
     public void getStartLine(){
@@ -42,7 +49,7 @@ public class Grammar {
     }
 
 
-    public void getVnLine(){
+    public void getVn(){
         // 获取文件的内容的总行数
         int total = 0;
         try {
@@ -81,6 +88,38 @@ public class Grammar {
             rule.add(str);
         }
         System.out.println("规则："+rule.toString());
+    }
+
+    public void getVt(){
+        ArrayList<Character> all = new ArrayList<>();
+        for(String s : rule){
+            String[] left_right = s.split("::=");
+
+            //处理产生式左部字符
+            for(int i = 0; i<left_right[0].trim().length();i++){
+                if(!all.contains(left_right[0].charAt(i))){
+                    all.add(left_right[0].charAt(i));
+                }
+            }
+            //处理产生式右部字符
+            String[] right = left_right[1].split("\\|");//右部各元素以"|"分隔
+            for(String sr : right){
+                sr = sr.trim();
+                for(int i=0;i<sr.length();i++){
+                    if(!all.contains(sr.charAt(i)) && sr.charAt(i)!='ε'){
+                        all.add(sr.charAt(i));
+                    }
+                }
+            }
+        }
+        try{
+            all.removeAll(Vn);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+        System.out.println("终结符："+all.toString());
+
     }
 
     public void printGrammar(){
