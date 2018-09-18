@@ -38,6 +38,10 @@ public class FileUtility {
                     //System.out.println("当前行号为:" + reader.getLineNumber());
                     if (reader.getLineNumber() == lineNumber) {
                         //System.out.println(s);
+                        if(s.contains(" ")){
+                            System.out.println("【提示：字符间有空格，已自动删除。】");
+                        }
+                        s = s.replaceAll(" ","");
                         str = s;
                     }
                     s = reader.readLine();

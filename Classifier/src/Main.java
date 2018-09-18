@@ -10,8 +10,5 @@ public class Main {
         Grammar g = new Grammar(filename);
         g.print();
 
-
-
-
     }
 }

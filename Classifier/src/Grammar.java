@@ -27,13 +27,6 @@ public class Grammar {
 
 
     public void getStartLine(){
-        // 获取文件的内容的总行数
-        int total = 0;
-        try {
-            total = FileUtility.getInstance().getTotalLineNumber(this.filename+".txt");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
         // 指定读取的行号
         int lineNumber = 1;
         // 读取指定的行
@@ -51,13 +44,6 @@ public class Grammar {
 
 
     public void getVn(){
-        // 获取文件的内容的总行数
-        int total = 0;
-        try {
-            total = FileUtility.getInstance().getTotalLineNumber(this.filename+".txt");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
         // 指定读取的行号
         int lineNumber = 2;
         // 读取指定的行
@@ -86,7 +72,6 @@ public class Grammar {
                 Vn.remove(i);
             }
         }
-
         System.out.println("非终结符："+Vn.toString());
     }
 
@@ -105,6 +90,10 @@ public class Grammar {
             // 读取指定的行
             lineNumber = i;
             str = FileUtility.getInstance().readFileLine(this.filename+".txt", lineNumber);
+            if(str.contains("εε")){
+                System.out.println("【提示：存在连续空串，已自动合并】");
+                str = str.replaceAll("(\\ε)\\1*", "ε");
+            }
             rule.add(str);
         }
         System.out.println("规则："+rule.toString());
@@ -127,13 +116,14 @@ public class Grammar {
             for(String sr : rightStr){
                 right.add(sr);
                 for(int i=0;i<sr.length();i++){
-                    if(!all.contains(sr.charAt(i)) && sr.charAt(i)!='ε'){
+                    if(!all.contains(sr.charAt(i)) && sr.charAt(i)!='ε' && sr.charAt(i)!=' '){
                         all.add(sr.charAt(i));
                     }
                 }
             }
         }
         try{
+
             all.removeAll(Vn);
         }catch (Exception e){
             e.printStackTrace();
@@ -185,7 +175,7 @@ public class Grammar {
         boolean isZerothOrFirst = false;
         boolean isExtended = false;
         boolean isLeft = true;
-        boolean isLeftChanged = true;
+        boolean isChanged = false;
 
         for(String l : left){
             boolean isAllVt = true;
@@ -245,27 +235,25 @@ public class Grammar {
                         break;
                     }
                     if(Vn.contains(sr.charAt(0))&&Vt.contains(sr.charAt(1))){
-                        if(!isLeftChanged){
+                        if(!isChanged){
                             isLeft = true;
-                            isLeftChanged = false;
+                            isChanged = true;
                             continue;
                         }else {
                             if(!isLeft){
                                 t = 2;
                                 break;
-
                             }
                         }
                     }else if(Vn.contains(sr.charAt(1))&&Vt.contains(sr.charAt(0))){
-                        if(isLeftChanged){
+                        if(!isChanged){
                             isLeft = false;
-                            isLeftChanged = false;
+                            isChanged = true;
                             continue;
                         }else {
                             if(isLeft){
                                 t = 2;
                                 break;
-
                             }
                         }
                     }
@@ -302,6 +290,10 @@ public class Grammar {
                     break;
                 }
             case 3:
+                if(!isChanged){
+                    this.type = 3;
+                    break;
+                }
                 if(!isExtended && isLeft){
                     this.type = 6;
                     break;
