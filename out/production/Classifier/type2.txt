@@ -1,6 +1,6 @@
 G[S]
 S,N,M
-S::=aN|xS
+S::=aN|xSy
 S::=bM
 N::=aM
 N::=y

@@ -16,7 +16,8 @@ public class FileUtility {
             File file = new File(this.getClass().getResource(filepath).getPath());
             return file;
         }catch (Exception e) {
-            e.printStackTrace();
+           // e.printStackTrace();
+            System.out.println("未找到文件！");
             return null;
         }
     }
@@ -46,7 +47,7 @@ public class FileUtility {
             in.close();
             return str;
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("未找到文件！");
             return "";
         }
     }

@@ -2,8 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2a7ae5f-9ae3-4001-bf5f-06e2e043f29a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Classifier/resource/error4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/chom0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier/resource/type0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/chom1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/chom2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier/resource/type2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/chom2ex.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/chom3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/chom3ex.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/chomerror1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/chomerror2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/chomerror3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/chomsky0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/chomsky1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/chomsky1ex.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier/resource/type1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/chomsky2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/chomsky2ex.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier/resource/type2ex.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/chomsky3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier/resource/type3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/chomsky3left.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier/resource/type3left.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/chomsky3leftex.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier/resource/type3leftex.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/chomsky3right.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier/resource/type3right.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/chomsky3rightex.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier/resource/type3rightex.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/error3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier/resource/error3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/grammar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier/resource/grammar.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/resource/grammar2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier/src/FileUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier/src/FileUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classifier/src/Grammar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier/src/Grammar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classifier/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/FileUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Classifier/FileUtility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/Grammar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Classifier/Grammar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Classifier/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/chom0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/chom1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/chom2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/chom2ex.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/chom3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/chom3ex.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/chomerror1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/chomerror2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/chomerror3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/chomsky0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/chomsky1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/chomsky1ex.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/chomsky2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/chomsky2ex.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/chomsky3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/chomsky3left.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/chomsky3leftex.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/chomsky3right.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/chomsky3rightex.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/error3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Classifier/error3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/grammar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Classifier/grammar.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classifier/grammar2.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,38 +65,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="chomsky2ex.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classifier/resource/chomsky2ex.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classifier/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            <state relative-caret-position="90">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chomsky3.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classifier/resource/chomsky3.txt">
+      <file leaf-file-name="FileUtility.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classifier/src/FileUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="112">
+              <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chomsky3right.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classifier/resource/chomsky3right.txt">
+      <file leaf-file-name="type3leftex.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classifier/resource/type3leftex.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -54,8 +95,8 @@
       <file leaf-file-name="Grammar.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Classifier/src/Grammar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1801">
-              <caret line="211" column="18" selection-start-line="211" selection-start-column="18" selection-end-line="211" selection-end-column="18" />
+            <state relative-caret-position="585">
+              <caret line="39" column="85" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,16 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chom3.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classifier/resource/chom3.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="chomsky3rightex.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classifier/resource/chomsky3rightex.txt">
+      <file leaf-file-name="type3right.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classifier/resource/type3right.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="60">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -81,7 +117,16 @@
         <entry file="file://$PROJECT_DIR$/Classifier/resource/error1.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="type3rightex.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classifier/resource/type3rightex.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -89,8 +134,17 @@
       <file leaf-file-name="error2.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classifier/resource/error2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="30">
+              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error4.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classifier/resource/error4.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -98,8 +152,8 @@
       <file leaf-file-name="error3.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classifier/resource/error3.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="45">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -117,6 +171,7 @@
     <findStrings>
       <find>getvnline</find>
       <find>trim</find>
+      <find>txt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -134,23 +189,39 @@
         <option value="$PROJECT_DIR$/src/pers/liyihan/grammar.txt" />
         <option value="$PROJECT_DIR$/src/pers/liyihan/Grammar.java" />
         <option value="$PROJECT_DIR$/Classifier/resource/grammar2.txt" />
-        <option value="$PROJECT_DIR$/Classifier/src/FileUtility.java" />
-        <option value="$PROJECT_DIR$/Classifier/resource/grammar.txt" />
         <option value="$PROJECT_DIR$/Classifier/src/Chomsky.java" />
         <option value="$PROJECT_DIR$/Classifier/resource/chomsky1ex.txt" />
         <option value="$PROJECT_DIR$/Classifier/resource/chomsky1.txt" />
-        <option value="$PROJECT_DIR$/Classifier/resource/chomsky0.txt" />
         <option value="$PROJECT_DIR$/Classifier/resource/chomsky2.txt" />
-        <option value="$PROJECT_DIR$/Classifier/resource/chomsky3left.txt" />
         <option value="$PROJECT_DIR$/Classifier/resource/chomsky3leftex.txt" />
         <option value="$PROJECT_DIR$/Classifier/resource/chomsky3right.txt" />
-        <option value="$PROJECT_DIR$/Classifier/resource/error1.txt" />
         <option value="$PROJECT_DIR$/Classifier/resource/chomsky2ex.txt" />
         <option value="$PROJECT_DIR$/Classifier/resource/chomsky3rightex.txt" />
-        <option value="$PROJECT_DIR$/Classifier/resource/error2.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/chom3ex.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/chomerror1.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/chomerror2.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/chomerror3.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/chomsky0.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/chom3.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/grammar.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/chomsky3.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/chomsky3left.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/chom2ex.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/chom0.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/chom1.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/chom2.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/type1.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/type3-1.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/type3-2.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/type3right-1.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/type3.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/error1.txt" />
+        <option value="$PROJECT_DIR$/Classifier/resource/error4.txt" />
         <option value="$PROJECT_DIR$/Classifier/resource/error3.txt" />
-        <option value="$PROJECT_DIR$/Classifier/src/Main.java" />
+        <option value="$PROJECT_DIR$/Classifier/resource/error2.txt" />
         <option value="$PROJECT_DIR$/Classifier/src/Grammar.java" />
+        <option value="$PROJECT_DIR$/Classifier/src/FileUtility.java" />
+        <option value="$PROJECT_DIR$/Classifier/src/Main.java" />
       </list>
     </option>
   </component>
@@ -164,9 +235,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="297" />
-    <option name="y" value="23" />
-    <option name="width" value="1005" />
+    <option name="x" value="154" />
+    <option name="y" value="25" />
+    <option name="width" value="1258" />
     <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -222,7 +293,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,8 +330,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,16 +436,16 @@
       <workItem from="1536668912655" duration="69000" />
       <workItem from="1537083657811" duration="489000" />
       <workItem from="1537173876944" duration="1178000" />
-      <workItem from="1537188102828" duration="10311000" />
+      <workItem from="1537188102828" duration="10370000" />
+      <workItem from="1537234668112" duration="10333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24969000" />
+    <option name="totallyTimeSpent" value="35361000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="297" y="23" width="1005" height="800" extended-state="0" />
-    <editor active="true" />
+    <frame x="154" y="25" width="1258" height="800" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -385,18 +456,18 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16216215" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34566146" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24975124" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18282989" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997155" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -405,6 +476,36 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4110953" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18282989" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32768363" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -413,26 +514,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chomsky.java" />
-    <entry file="file://$PROJECT_DIR$/src/Grammar.java" />
-    <entry file="file://$PROJECT_DIR$/src/grammar.txt" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/io/FileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileUtility.java" />
-    <entry file="file://$PROJECT_DIR$/src/Chomsky.java" />
-    <entry file="file://$PROJECT_DIR$/src/Chomsky.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/io/FileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -514,13 +595,6 @@
     <entry file="file://$PROJECT_DIR$/Classifier/Classifier.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classifier/src/FileUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -539,118 +613,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classifier/resource/grammar.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Classifier/resource/chomsky0.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state>
+          <caret selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classifier/resource/chomsky1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        <state>
+          <caret selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classifier/resource/chomsky1ex.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        <state>
+          <caret selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classifier/resource/chomsky2.txt">
+    <entry file="file://$PROJECT_DIR$/Classifier/resource/type1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        <state relative-caret-position="30">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classifier/resource/chomsky3left.txt">
+    <entry file="file://$PROJECT_DIR$/Classifier/resource/type3right-1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classifier/resource/type3rightex-1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classifier/resource/type2-2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classifier/resource/type2ex-1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classifier/resource/chomsky3leftex.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classifier/resource/chomsky2ex.txt">
+    <entry file="file://$PROJECT_DIR$/Classifier/resource/type2ex.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classifier/resource/chomsky3rightex.txt">
+    <entry file="file://$PROJECT_DIR$/Classifier/resource/type2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classifier/resource/type0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classifier/resource/type3left.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classifier/resource/type3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classifier/resource/grammar.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classifier/resource/error6.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classifier/resource/error5.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classifier/resource/error3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classifier/resource/error4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classifier/resource/error2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classifier/resource/type3leftex.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classifier/resource/type3rightex.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classifier/resource/chomsky3right.txt">
+    <entry file="file://$PROJECT_DIR$/Classifier/resource/type3right.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Classifier/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Classifier/resource/error1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classifier/resource/error2.txt">
+    <entry file="file://$PROJECT_DIR$/Classifier/src/FileUtility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="112">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classifier/resource/error3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classifier/resource/chomsky3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classifier/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classifier/resource/chom3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Classifier/src/Grammar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1801">
-          <caret line="211" column="18" selection-start-line="211" selection-start-column="18" selection-end-line="211" selection-end-column="18" />
+        <state relative-caret-position="585">
+          <caret line="39" column="85" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -66,8 +66,27 @@ public class Grammar {
         StringTokenizer st = new StringTokenizer(VnLine,",");
         while(st.hasMoreElements()){
             //System.out.println("Token:" + st.nextToken());
-            Vn.add(st.nextToken().charAt(0));
+            String nextVn = st.nextToken();
+            if(nextVn.length()!=1){
+                System.out.println("【提示:非终结符"+nextVn+"输入有误，已自动纠正为"+nextVn.charAt(0)+"】");
+            }
+            Vn.add(nextVn.charAt(0));
         }
+        boolean isVnInRule = false;
+        for(int i = 0;i<Vn.size();i++){
+            isVnInRule = false;
+            for(String r:rule){
+                if(r.contains(Vn.get(i).toString())){
+                    isVnInRule = true;
+                    break;
+                }
+            }
+            if(!isVnInRule){
+                System.out.println("【提示:已移除多余非终结符"+Vn.get(i)+"】");
+                Vn.remove(i);
+            }
+        }
+
         System.out.println("非终结符："+Vn.toString());
     }
 
@@ -123,8 +142,8 @@ public class Grammar {
             Vt.add(all.get(i));
         }
         System.out.println("终结符："+Vt.toString());
-        System.out.println("left："+left.toString());
-        System.out.println("right："+right.toString());
+        System.out.println("左部："+left.toString());
+        System.out.println("右部："+right.toString());
 
     }
 
@@ -165,10 +184,21 @@ public class Grammar {
         int t = -1;
         boolean isZerothOrFirst = false;
         boolean isExtended = false;
-        boolean isLeft = false;
-        boolean isLeftChanged = false;
+        boolean isLeft = true;
+        boolean isLeftChanged = true;
 
         for(String l : left){
+            boolean isAllVt = true;
+            for(int i=0;i<l.length();i++){
+                if(Vn.contains(l.charAt(i))){
+                    isAllVt = false;
+                }
+            }
+            if(isAllVt){
+                System.out.println("【产生式左部"+l+"不能全为终结符，请检查您的输入。】");
+                System.exit(1);
+            }
+
             if(l.length()!=1||!Vn.contains(l.charAt(0))){
                 isZerothOrFirst = true;
                 break;
@@ -199,27 +229,13 @@ public class Grammar {
             }
         }else{//2型或3型文法
 
-            /*
-            文法判断有误，无法判断出3型
-            此处需要修改！
-            改为嵌套if语句直接判断3型？
-            if...{
-                if...{
-                    ...
-                    t = 3;
-                }
-            }
-            t = 2;
-             */
             for(String sr:this.right){
-                if(sr.equals("ε")){
-                    continue;
-                }
-                if(sr.length()!=1||sr.length()!=2){
+                if(sr.length()!=1&&sr.length()!=2){
                     t = 2;
                     break;
+
                 }
-                if(sr.length()==1 && !Vt.contains(sr.charAt(0))){
+                if(sr.length()==1 && !(Vt.contains(sr.charAt(0))||sr.equals("ε"))){
                     t = 2;
                     break;
                 }
@@ -229,7 +245,6 @@ public class Grammar {
                         break;
                     }
                     if(Vn.contains(sr.charAt(0))&&Vt.contains(sr.charAt(1))){
-
                         if(!isLeftChanged){
                             isLeft = true;
                             isLeftChanged = false;
@@ -266,7 +281,6 @@ public class Grammar {
             }
         }
 
-        System.out.println(t);
         switch (t){
             case 0:
                 this.type = 0;
@@ -288,14 +302,6 @@ public class Grammar {
                     break;
                 }
             case 3:
-                if(!isExtended && isLeftChanged){
-                    this.type = 3;
-                    break;
-                }
-                if(isExtended && isLeftChanged){
-                    this.type = 5;
-                    break;
-                }
                 if(!isExtended && isLeft){
                     this.type = 6;
                     break;
@@ -312,6 +318,10 @@ public class Grammar {
                     this.type = 9;
                     break;
                 }
+                else {
+                    this.type = 3;
+                    break;
+                }
             default:
                 this.type = -1;
                 break;
@@ -322,7 +332,6 @@ public class Grammar {
 
     public void printType(){
         getChomskyType();
-        System.out.println(this.type);
         switch (this.type){
             case 0:
                 System.out.println("该文法是Chomsky0型文法。");
@@ -356,6 +365,20 @@ public class Grammar {
                 return;
             default:
                 System.out.println("该输入不是合法的Chomsky文法。");
+        }
+    }
+
+
+    public void print(){
+        try{
+            getStartLine();
+            getRuleLine();
+            getVn();
+            getVt();
+            printGrammar();
+            printType();
+        }catch (Exception e){
+            System.out.println("不是合法的Chomsky文法，请检查您的输入。");
         }
     }
 }
