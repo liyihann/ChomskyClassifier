@@ -1,4 +1,4 @@
 G[S]
 S,N
 S::=N a
-N::=a|y
+N::=a|y|D

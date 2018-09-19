@@ -111,6 +111,7 @@ public class Grammar {
                     all.add(left_right[0].charAt(i));
                 }
             }
+
             //处理产生式右部字符
             String[] rightStr = left_right[1].split("\\|");//右部各元素以"|"分隔
             for(String sr : rightStr){
@@ -121,6 +122,10 @@ public class Grammar {
                     }
                 }
             }
+        }
+        if(this.start!=this.left.get(0).charAt(0)){
+            System.out.println("【提示：第一条产生式左部非开始符号，请检查您的输入】");
+            System.exit(1);
         }
         try{
 

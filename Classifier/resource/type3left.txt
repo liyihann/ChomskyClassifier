@@ -1,5 +1,5 @@
 G[S]
 S,N,M
 S::=Na
-N::=Ma|y
+N::=Ma|yN
 M::=b
